@@ -10,10 +10,12 @@ function randomPass(){
         $mario = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
         $caratteriDisponibili .= $mario;
     };
+
     if ( $numeri == true){
         $gabriele = '1234567890';
         $caratteriDisponibili .= $gabriele;
     };
+    
     if ( $simboli == true){
         $milazzo = "'!#$%&'*+,-./:;<=>?@\^_`{|}~";
         $caratteriDisponibili .= $milazzo;

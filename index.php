@@ -13,7 +13,8 @@
     <title>Password Generator</title>
 </head>
 <body>
-    <div class="p-4">
+    <h1 class="m-4">GENERA PASSWORD</h1>
+    <div class="m-4">
         <form action="./includes/components/index.php" method="GET"  class="d-flex flex-column align-items-start">
             <label for="">lunghezza password</label>
             <input class="my-2" type="number" name="lunghezza" id="">
